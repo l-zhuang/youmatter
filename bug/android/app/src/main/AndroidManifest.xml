@@ -1,14 +1,8 @@
-
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.health_app">
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    package="com.example.bug">
    <application
-        android:label="health_app"
-       android:usesCleartextTraffic="true"
-
+        android:label="bug"
         android:icon="@mipmap/ic_launcher">
-
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -44,6 +38,4 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
-    <!-- Required to fetch data from the internet. -->
-    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
