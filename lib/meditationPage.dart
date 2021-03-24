@@ -23,7 +23,7 @@ class Meditation extends StatelessWidget {
         appBar: AppBar(
           title: SizedBox(
             child: Row(
-              children:[Text('Mediatate'),
+              children:[Text('Relax'),
                 SizedBox(width:60),
                 Image.asset(
             'You Matter/you matter1.png',
@@ -35,7 +35,7 @@ class Meditation extends StatelessWidget {
               ]
             ),
           ),
-          backgroundColor: Color(0XFFB2C9AB),
+          backgroundColor: Color(0xFF788AA3),
           toolbarHeight: 100,
         ),
         body: Container(

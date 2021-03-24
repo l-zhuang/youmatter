@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:health_app/DailyGoodNews.dart';
+import 'package:health_app/JournalPage.dart';
 import 'package:health_app/MentorPage.dart';
 import 'package:health_app/createAccout.dart';
 import 'package:health_app/login.dart';
@@ -32,6 +33,7 @@ Future<void> main() async {
       '/list': (context) =>MyApp(),
       '/mentor': (context) =>Mentor(),
       '/friend': (context) =>Friend(),
+      '/journal': (context) =>Journal(),
     },
   ));
 }

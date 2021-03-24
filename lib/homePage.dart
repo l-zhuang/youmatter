@@ -99,7 +99,7 @@ class Home extends StatelessWidget {
                     height:100,
                     child:RaisedButton(
                       onPressed:(){
-                        Navigator.pushNamed(context, '/fourth');},
+                        Navigator.pushNamed(context, '/journal');},
                       color:Color(0xFFB2C8AB),
                       textColor:Colors.white,
                       shape: RoundedRectangleBorder(
@@ -190,6 +190,8 @@ class Home extends StatelessWidget {
               child:Text("LogOut"),
               onPressed:(){
                 FirebaseAuth.instance.signOut();
+                ScaffoldMessenger.of(context)
+                    .showSnackBar(SnackBar(content: Text('Logged out successfully')));
                 Navigator.pushNamed(context, '/');},
               color:Color(0xFF788AA3),
             ),
