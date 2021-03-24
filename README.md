@@ -1,4 +1,4 @@
-# health_app
+# You Matter - wellness mobile app
 
 A new Flutter application.
 
@@ -7,7 +7,7 @@ A new Flutter application.
 This project is a starting point for a Flutter application.
 ****
 **Ada Mentoship Program Project**
-an Android mobile app is designed using flutter sdk and firebase authentication
+Android mobile app is designed using flutter sdk and firebase authentication
 
 _**check out the app demo here:**_ https://youtu.be/eCW-DJfixzw
 
