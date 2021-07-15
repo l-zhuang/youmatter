@@ -1,4 +1,4 @@
-# You Matter - wellness mobile app
+# You Matter - wellness android mobile application
 
 ****
 **Ada Mentoship Program Project**
